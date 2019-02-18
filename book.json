@@ -2,7 +2,8 @@
   "title": "AWS VS PSET",
   "author": "KeQingyuan",
   "plugins": [
-    "autocover"
+    "autocover",
+    "mathjax"
   ],
   "pluginsConfig": {
     "autocover": {
@@ -19,5 +20,8 @@
         "color": "#09F"
       }
     }
+  },
+  "variables": {
+    "myTest": "Hello World"
   }
 }
