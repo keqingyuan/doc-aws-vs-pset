@@ -21,6 +21,9 @@
       }
     }
   },
+  "styles": {
+    "website": "styles/website.css"
+  },
   "variables": {
     "title": "AWS VS PSET"
   }
