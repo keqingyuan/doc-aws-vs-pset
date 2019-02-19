@@ -22,7 +22,7 @@ AWS共176个产品划分了开发人员工具、分析、存储等23个大类。
 | 测试管理 |  |  |
 | 配置管理 |  |  |
 | 介质管理 |  |  |
-| 监控 | [Amazon CloudWatch]() |  |
+| 监控 | [Amazon CloudWatch](amazon-cloudwatch.md) 是AWS提供的监控服务，该服务集成到了[AWS CodeBuild](aws-codebuild.md)里。 |  |
 
 
 
