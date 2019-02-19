@@ -26,4 +26,4 @@ AWS共176个产品划分了开发人员工具、分析、存储等23个大类。
 | 运营 |  |  |
 
 
-{% include "git+https://github.com/GitbookIO/documentation.git/README.md#master" %}
+{% include "git+https://github.com/keqingyuan/doc-aws/blob/master/chapter1.md#master" %}
