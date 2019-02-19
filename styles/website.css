@@ -1,4 +1,7 @@
 .gitbook-link {
   display: none !important;
  }
+table th:nth-of-type(1) {
+    width: 30%;
+}
 
