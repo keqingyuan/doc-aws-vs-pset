@@ -27,3 +27,9 @@ AWS共176个产品划分了开发人员工具、分析、存储等23个大类。
 
 
 
+<style>
+table th:first-of-type {  #first表示表格第一列
+    width: 100px; # 可使用%比例
+}
+</style>
+
