@@ -2,6 +2,7 @@
   "title": "AWS VS PSET",
   "author": "KeQingyuan",
   "plugins": [
+    "ComScore"
   ],
   "pluginsConfig": {
   },
