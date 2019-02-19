@@ -2,9 +2,15 @@
   "title": "AWS VS PSET",
   "author": "KeQingyuan",
   "plugins": [
-    "ComScore"
+    "ComScore",
+    "include-codeblock"
   ],
   "pluginsConfig": {
+    "include-codeblock": {
+      "template": "ace",
+      "unindent": true,
+      "theme": "monokai"
+    }
   },
   "styles": {
     "website": "styles/website.css"
