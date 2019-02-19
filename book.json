@@ -2,8 +2,8 @@
   "title": "AWS VS PSET",
   "author": "KeQingyuan",
   "plugins": [
-      "include-codeblock",
-      "ace"
+    "include-codeblock",
+    "ace"
   ],
   "pluginsConfig": {
   },
@@ -11,7 +11,7 @@
     "template": "ace",
     "unindent": true,
     "edit": true
-    }
+  },
   "styles": {
     "website": "styles/website.css"
   },
