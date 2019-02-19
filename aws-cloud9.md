@@ -28,5 +28,6 @@ AWS Cloud9 为您提供多种控制语法高亮显示和 UI 的颜色方案选�
 除了默认密钥绑定，AWS Cloud9 还提供使用 VIM、Emacs 和 Sublime 密钥绑定的选项，您也可以自定义绑定。这使得您能够使用您已熟悉的命令和快捷键。
 #### 内置图像编辑器
 AWS Cloud9 支持图像编辑功能，使您能够直接从浏览器中调整图像大小以及裁剪、旋转或翻转图像。
-## 体验Visual Studio Code
-笔者按照操作提示在笔者的本地IDE Visual Studio Code装上aws-toolkit-vscode
+## 体验
+目前AWS支持的IDE如下图
+![ide](assets/2019-02-17_131028.png)
