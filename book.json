@@ -3,7 +3,8 @@
   "author": "KeQingyuan",
   "plugins": [
     "ComScore",
-    "include-codeblock"
+    "include-codeblock",
+    "ace"
   ],
   "pluginsConfig": {
     "include-codeblock": {
