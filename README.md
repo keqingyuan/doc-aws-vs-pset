@@ -16,9 +16,9 @@ AWS共176个产品划分了开发人员工具、分析、存储等23个大类。
 | 项目管理 | AWS没有自己的项目管理产品，依托于[Atlassian JIRA Software](https://www.atlassian.com/software/jira) 来管理项目 | PSET也是依托于[Atlassian JIRA Software](https://www.atlassian.com/software/jira) 跟踪问题和管理项目 |
 | 源码管理 | AWS源码托管有自己的源码托管产品 [AWS CodeCommit](aws-codecommit.md) 和支持GitHub | PSET源码托管支持SVN和bitbucket |
 | 开发 | AWS提供在线编辑IDE [AWS Cloud9](aws-cloud9.md)，同时以插件的形式支持其它的IDE | PSET暂时不支持IDE |
-| 持续集成 | [AWS CodeBuild](aws-codebuild.md) 是AWS持续集成的服务 | PSET同样支持持续构建服务 |
-| 持续部署 | AWS支持持续部署服务 [AWS CodeDeploy](aws-codedeploy.md), AWS的持续部署有部署组的概念和回滚策略支持自动回滚 | 虽然PSET支持自动部署同时也支持多节点部署但是缺少不同环境件同时部署的服务。同样地，如果部署异常需要手动回滚不具备回滚策略。 |
-| 持续交付 | [AWS Pipeline](aws-pipeline.md)支持自动交付能力，交付虽然和部署都是把应用部署到目标服务器，不同的是交付需要开发人员/经理人手动确认，而部署不需要。 |  |
+| 持续集成 | [AWS CodeBuild](aws-codebuild.md) 是AWS持续集成的服务 | PSET同样支持持续构建服务在MAM模块 |
+| 持续部署 | AWS支持持续部署服务 [AWS CodeDeploy](aws-codedeploy.md), AWS的持续部署有部署组的概念和回滚策略支持自动回滚 | 虽然PSET支持自动部署（同样在MAM模块）同时也支持多节点部署但是缺少不同环境件同时部署的服务。同样地，如果部署异常需要手动回滚不具备回滚策略。 |
+| 持续交付 | [AWS Pipeline](aws-pipeline.md)支持自动交付能力，交付虽然和部署都是把应用部署到目标服务器，不同的是交付需要开发人员/经理人手动确认，而部署不需要。 | PSET有交付能力，但是和持续构建 |
 | 测试管理 |  |  |
 | 配置管理 |  |  |
 | 介质管理 |  |  |
