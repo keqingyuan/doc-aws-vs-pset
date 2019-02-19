@@ -2,7 +2,6 @@
   "title": "AWS VS PSET",
   "author": "KeQingyuan",
   "plugins": [
-    "ComScore",
     "include-codeblock",
     "ace"
   ],
