@@ -5,4 +5,5 @@
 * [AWS Cloud9](aws-cloud9.md)
 * [AWS CodeBuild](aws-codebuild.md)
 * [AWS CodeDeploy](aws-codedeploy.md)
+* [AWS Pipeline](aws-pipeline.md)
 
