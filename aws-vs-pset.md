@@ -66,7 +66,7 @@ AWS的[AWS CodeDeploy](aws-codedeploy.md)提供持续部署服务 , AWS的持续
 
 | AWS | PEST |
 | :--- | :--- |
-| AWS的测试集成到了CodeBuild | PSET的测试集成了Jest & Puppeteer对应用进行端到端的测试。 |
+| AWS的测试集成到了CodeBuild，暂时没有发现有专门的测试集成工具。 | PSET的测试集成了Jest & Puppeteer对应用进行端到端的测试。 |
 
 ## 配置
 
