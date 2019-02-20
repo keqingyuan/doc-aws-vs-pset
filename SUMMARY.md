@@ -9,5 +9,5 @@
   * [AWS CodeDeploy](aws-codedeploy.md)
   * [AWS Pipeline](aws-pipeline.md)
   * [Amazon CloudWatch](amazon-cloudwatch.md)
-  * AWS CodeStar
+  * [AWS CodeStar](aws-codestar.md)
 
