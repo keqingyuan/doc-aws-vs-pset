@@ -42,10 +42,11 @@ PSET的MAM提供了持续集成服务，用户根据自己的项目类型选择�
 | **选择源集成** | 您可以通过多种方式使用 AWS CodeBuild 启动构建任务。例如，您可以在连接到 AWS CodeCommit、GitHub、GitHub Enterprise、Bitbucket 或 Amazon S3 之后，在 CodeBuild 中启动构建任务。您还可以使用 AWS CodePipeline 将 CodeBuild 与您的源存储库连接到一起，而 AWS CodePipeline 会在您每次提交更改时自动启动构建任务。 | PSET在创建构建时需要指定源码库源连接到PSET上，在每次启动构建时MAM会到源码库拉取源码来构建应用，目前PSET仅支持SVN和bitbucket。 |
 
 ## 持续部署
+AWS的[AWS CodeDeploy](aws-codedeploy.md)提供持续部署服务 , AWS的持续部署有部署组的概念和回滚策略支持自动回滚。虽然PSET支持自动部署（同样在MAM模块）同时也支持多节点部署但是缺少不同环境件同时部署的服务。同样地，如果部署异常需要手动回滚不具备回滚策略，具体的对比分析看下表。
 
 |  | AWS | PEST |
 | :--- | :--- | :--- |
-| **自动化实例部署** | AWS支持持续部署服务 [AWS CodeDeploy](aws-codedeploy.md), AWS的持续部署有部署组的概念和回滚策略支持自动回滚。 | 虽然PSET支持自动部署（同样在MAM模块）同时也支持多节点部署但是缺少不同环境件同时部署的服务。同样地，如果部署异常需要手动回滚不具备回滚策略。 |
+| **自动化实例部署** |  |  |
 
 ## 持续交付
 
