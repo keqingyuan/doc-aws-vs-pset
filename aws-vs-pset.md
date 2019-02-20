@@ -49,7 +49,7 @@ AWS的[AWS CodeDeploy](aws-codedeploy.md)提供持续部署服务 , AWS的持续
 | **可重复部署** | 可以重复部署不同的应用实列 | PSET也可以重复部署不同的应用实例，在部署历史就可以进行操作。 |
 | **自动化实例部署** | AWS可以通过与Pipeline结合实现构建完成后自动部署。 | PSET相对AWS自动部署操作要简单许多，只需一个勾选操作就可以，在用户构建完成后就实现部署操作。 |
 | **自动扩展** | CodeDeploy 与 Auto Scaling 集成。Auto Scaling 让您可以根据自己定义的条件（如流量高峰）自动扩展 EC2 容量。当新实例进入 Auto Scaling 组时，CodeDeploy 会收到通知，并且在新实例添加到 Elastic Load Balancing 负载均衡器之前，CodeDeploy 会在该新实例上自动执行应用程序部署。 | PSET不具备自动扩展功能。 |
-| **滚动更新和蓝/绿更新** | AWS根据滚动策略支持滚都滚更新，需要和`部署运行状况跟踪`配合使用，AWS同时也支持蓝/绿更新，仅仅支持Amazon EC2 实例、Amazon ECS 服务（EC2 和 AWS Fargate 启动类型）或 AWS Lambda 的计算平台。 |  |
+| **滚动更新和蓝/绿更新** | AWS根据滚动策略支持滚都滚更新，需要和`部署运行状况跟踪`配合使用，AWS同时也支持蓝/绿更新，仅支持Amazon EC2 实例、Amazon ECS 服务（EC2 和 AWS Fargate 启动类型）或 AWS Lambda 的计算平台。 |  |
 | **部署运行状况跟踪** |  |  |
 | **停止和回滚** |  |  |
 | **监控和控制** |  |  |
