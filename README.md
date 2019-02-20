@@ -15,7 +15,7 @@ AWS共176个产品划分了开发人员工具、分析、存储等23个大类。
 | 生命周期覆盖范围 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 项目管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 源码管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
-| 开发 | ![yes](/assets/yes.svg) | ![no](/assets/no.svg) |
+| 开发IDE | ![yes](/assets/yes.svg) | ![no](/assets/no.svg) |
 | 持续集成 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 持续部署 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 持续交付 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
