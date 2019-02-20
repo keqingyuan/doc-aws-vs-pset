@@ -66,8 +66,7 @@ AWS CodeBuild 可以提供适用于 Java、Python、Node.js、Ruby、Go、Androi
 **选择源集成**
 您可以通过多种方式使用 AWS CodeBuild 启动构建任务。例如，您可以在连接到 AWS CodeCommit、GitHub、GitHub Enterprise、Bitbucket 或 Amazon S3 之后，在 CodeBuild 中启动构建任务。您还可以使用 AWS CodePipeline 将 CodeBuild 与您的源存储库连接到一起，而 AWS CodePipeline 会在您每次提交更改时自动启动构建任务。
 #### PSET优势
-PSET的目前支持的构建较AWS偏少，仅仅支持Java，Android，iOS, npm, Go, 工程类型支持Maven, Rex, 亿通，典型的Java工程项目，构建工具支持Maven，Gradle，Ant。
-#### Docker构建
+PSET的目前支持的构建较AWS偏少，仅仅支持Java，Android，iOS, npm, Go, 工程类型支持Maven, Rex, 亿通，典型的Java工程项目，构建工具支持Maven，Gradle，Ant。PSET对特定项目进行开发，所以从可配置角度比较AWS要少。
 
 ## 持续部署
 
