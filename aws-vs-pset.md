@@ -51,6 +51,9 @@ PSET的MAM提供了持续集成服务，用户根据自己的项目类型选择�
 | AWS | AWS | PEST |
 | :--- | :--- | :--- |
 | **预配置构建环境** | [AWS CodeBuild](aws-codebuild.md) 是AWS持续集成的服务，AWS提供适用于 Java、Python、Node.js、Ruby、Go、Android、.NET Core for Linux 和 Docker 的构建环境，构建环境支持比较PSET丰富。 | PSET同样支持持续构建服务在MAM模块，仅仅支持Java、Go、Android、iOS、Node.js。 |
+| **自定义构建环境** | AWS CodeBuild 可以提供适用于 Java、Python、Node.js、Ruby、Go、Android、.NET Core for Linux 和 Docker 的构建环境。 | PSET针对自定义构建环境只能通过Ant或者Shell脚本来提供支持。 |
+
+
 
 ### AWS分析
 
