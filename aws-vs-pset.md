@@ -46,7 +46,7 @@
 ## 持续集成
 AWS CodeBuild 在预配置的构建环境中运行构建任务，此类环境中包含完成任务所需的操作系统、编程语言运行时和构建工具（例如 Apache Maven、Gradle 和 npm）。您只需指定源代码的位置并选择构建设置（例如要使用的构建环境以及要在构建过程中运行的构建命令）即可。AWS CodeBuild 会生成代码并将项目存储到 Amazon S3 存储桶中，而您也可以使用构建命令将其上传到项目存储库中。您可以使用 AWS CodePipeline、AWS 管理控制台、AWS CLI 或开发工具包来创建、管理和启动构建项目。
 
-PSET的MAM提供了持续集成服务，用户根据自己的项目类型选择构架环境，构建环境包含了编程语言、构建工具（Maven、Gradle、Ant和npm）,和AWS CodeBuild一样指定源码位置并且选择构建环境就可以。
+PSET的MAM提供了持续集成服务，用户根据自己的项目类型选择构架环境，构建环境包含了编程语言、构建工具（Maven、Gradle、Ant和npm）,和AWS CodeBuild一样指定源码位置并且选择构建环境就可以。目前PSET构建只能通过PSET控制台去操作，比较Code Build来说支持的工具单一。
 
 | AWS | AWS | PEST |
 | :--- | :--- | :--- |
