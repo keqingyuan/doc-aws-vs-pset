@@ -1,7 +1,8 @@
 # AWS VS. PSET
+
 我们会从下表展现的维度展开对比。
 
-| | AWS | PSET |
+|  | AWS | PSET |
 | :--- | :--- | :--- |
 | 生命周期覆盖范围 | AWS生命周期范围覆盖项目管理、源码托管、开发、CI/CD、交付、测试、监控。 | PSET生命周期覆盖项目管理、源码托管、CI/CD、交付、测试、监控。 |
 | 项目管理 | AWS没有自己的项目管理产品，依托于[Atlassian JIRA Software](https://www.atlassian.com/software/jira) 来管理项目。 | PSET也是依托于[Atlassian JIRA Software](https://www.atlassian.com/software/jira) 跟踪问题和管理项目。 |
@@ -11,28 +12,74 @@
 | 持续部署 | AWS支持持续部署服务 [AWS CodeDeploy](aws-codedeploy.md), AWS的持续部署有部署组的概念和回滚策略支持自动回滚。 | 虽然PSET支持自动部署（同样在MAM模块）同时也支持多节点部署但是缺少不同环境件同时部署的服务。同样地，如果部署异常需要手动回滚不具备回滚策略。 |
 | 持续交付 | [AWS Pipeline](aws-pipeline.md)支持自动交付能力，交付虽然和部署都是把应用部署到目标服务器，不同的是交付需要开发人员/经理人手动确认，而部署不需要。 | PSET有交付能力（在CMS模块），但是和持续构建（MAM）是隔离的，目前两个模块没有打通，需要线下操作。 |
 | 测试 | AWS支持 | PSET的测试集成了Jest & Puppeteer对应用进行端到端的测试。 |
-| 配置 | | PSET支持修改sql、 |
+| 配置 |  | PSET支持修改sql、 |
 | 监控 | [Amazon CloudWatch](amazon-cloudwatch.md) 是AWS提供的监控服务，该服务集成到了[AWS CodeBuild](aws-codebuild.md)里，在 Code Build控制台可以看到构建任务的指标，以及构建日志信息。 | PSET的监控分两部分一个是Monitor对PSET各个模块本身的监控，一个是集成到了MAM能够监控构建日志信息，和应用构建的健康状况、构建数量等指标。 |
 | 介质管理 | AWS | PSET集成的MAM模块集成了应用的介质管理能力，没每次构建的应用包都在构建历史获取到，Docker镜像管理依托Docker Trusted Registry\(DTR\)。 |
 
 ## 生命周期范围
 
+| AWS | PEST |
+| :--- | :--- |
+|  |  |
+
 ## 项目管理
+
+| AWS | PEST |
+| :--- | :--- |
+|  |  |
 
 ## 源码管理
 
+| AWS | PEST |
+| :--- | :--- |
+|  |  |
+
 ## 开发
+
+| AWS | PEST |
+| :--- | :--- |
+|  |  |
 
 ## 持续集成
 
+| AWS | PEST |
+| :--- | :--- |
+|  |  |
+
 ## 持续部署
+
+| AWS | PEST |
+| :--- | :--- |
+|  |  |
 
 ## 持续交付
 
+| AWS | PEST |
+| :--- | :--- |
+|  |  |
+
 ## 测试
+
+| AWS | PEST |
+| :--- | :--- |
+|  |  |
 
 ## 配置
 
+| AWS | PEST |
+| :--- | :--- |
+|  |  |
+
 ## 监控
 
-## 介质管理
+| AWS | PEST |
+| :--- | :--- |
+|  |  |
+
+## 介质管
+
+| AWS | PEST |
+| :--- | :--- |
+|  |  |
+
+
