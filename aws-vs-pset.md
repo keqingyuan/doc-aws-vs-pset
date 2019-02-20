@@ -15,3 +15,25 @@
 | 配置 | | PSET支持修改sql、 |
 | 监控 | [Amazon CloudWatch](amazon-cloudwatch.md) 是AWS提供的监控服务，该服务集成到了[AWS CodeBuild](aws-codebuild.md)里，在 Code Build控制台可以看到构建任务的指标，以及构建日志信息。 | PSET的监控分两部分一个是Monitor对PSET各个模块本身的监控，一个是集成到了MAM能够监控构建日志信息，和应用构建的健康状况、构建数量等指标。 |
 | 介质管理 | AWS | PSET集成的MAM模块集成了应用的介质管理能力，没每次构建的应用包都在构建历史获取到，Docker镜像管理依托Docker Trusted Registry\(DTR\)。 |
+
+## 生命周期范围
+
+## 项目管理
+
+## 源码管理
+
+## 开发
+
+## 持续集成
+
+## 持续部署
+
+## 持续交付
+
+## 测试
+
+## 配置
+
+## 监控
+
+## 介质管理
