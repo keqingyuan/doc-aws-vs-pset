@@ -65,7 +65,9 @@ AWS CodeBuild 可以提供适用于 Java、Python、Node.js、Ruby、Go、Androi
 
 **选择源集成**
 您可以通过多种方式使用 AWS CodeBuild 启动构建任务。例如，您可以在连接到 AWS CodeCommit、GitHub、GitHub Enterprise、Bitbucket 或 Amazon S3 之后，在 CodeBuild 中启动构建任务。您还可以使用 AWS CodePipeline 将 CodeBuild 与您的源存储库连接到一起，而 AWS CodePipeline 会在您每次提交更改时自动启动构建任务。
-
+#### PSET优势
+PSET的目前支持的构建较AWS偏少，仅仅支持Java，Android，iOS, npm, Go, 工程类型支持Maven, Rex, 亿通，典型的Java工程项目，构建工具支持Maven，Gradle，Ant。
+#### Docker构建
 
 ## 持续部署
 
@@ -83,13 +85,13 @@ AWS CodeBuild 可以提供适用于 Java、Python、Node.js、Ruby、Go、Androi
 
 | AWS | PEST |
 | :--- | :--- |
-| AWS | PSET的测试集成了Jest & Puppeteer对应用进行端到端的测试。 |
+| AWS的测试可以通过 | PSET的测试集成了Jest & Puppeteer对应用进行端到端的测试。 |
 
 ## 配置
 
 | AWS | PEST |
 | :--- | :--- |
-| AWS CodeBuild 可以执行的具体命令，例如安装构建工具包、运行单元测试和打包代码等。构建规范是一个 YAML 文件，让您能够选择要在每个构建阶段运行的命令以及选择其他设置。CodeBuild 可以使用适用于常见场景（例如使用 Apache Maven、Gradle 或 npm 的构建任务）。 | PSET支持配置管理 |
+| AWS CodeBuild 可以执行的具体命令，例如安装构建工具包、运行单元测试和打包代码等。构建规范是一个 YAML 文件，让您能够选择要在每个构建阶段运行的命令以及选择其他设置。CodeBuild 可以使用适用于常见场景（例如使用 Apache Maven、Gradle 或 npm 的构建任务）。 | PSET支持配置管理是基于C |
 
 ## 监控
 
