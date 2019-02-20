@@ -72,7 +72,7 @@ AWS的[AWS CodeDeploy](aws-codedeploy.md)提供持续部署服务 , AWS的持续
 
 | AWS | PEST |
 | :--- | :--- |
-| AWS CodeBuild 可以执行的具体命令，例如安装构建工具包、运行单元测试和打包代码等。构建规范是一个 YAML 文件，让您能够选择要在每个构建阶段运行的命令以及选择其他设置。CodeBuild 可以使用适用于常见场景（例如使用 Apache Maven、Gradle 或 npm 的构建任务）。 | PSET支持配置管理是基于C |
+| AWS CodeBuild 可以执行的具体命令，例如安装构建工具包、运行单元测试和打包代码等。构建规范是一个 YAML 文件，让您能够选择要在每个构建阶段运行的命令以及选择其他设置。CodeBuild 可以使用适用于常见场景（例如使用 Apache Maven、Gradle 或 npm 的构建任务）。 | PSET支持配置管理是基于CMS，可以对环境需要的配置文件统一管理，可查看更改记录，以及历史记录。 |
 
 ## 监控
 
