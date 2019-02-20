@@ -4,9 +4,9 @@
 * [AWS VS. PSET](aws-vs-pset.md)
 * PSET产品汇总
   * [MAM](mam.md)
-  * CMS
-  * YYSJ
-  * Project
+  * [CMS](cms.md)
+  * [YYSJ](yysj.md)
+  * [Project](project.md)
   * Monitor
 * AWS产品汇总
   * [AWS CodeCommit](aws-codecommit.md)
