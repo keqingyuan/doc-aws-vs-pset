@@ -68,7 +68,7 @@
 
 | AWS | PEST |
 | :--- | :--- |
-|  | PSET支持修改sql、 |
+| AWS CodeBuild 可以执行的具体命令，例如安装构建工具包、运行单元测试和打包代码等。构建规范是一个 YAML 文件，让您能够选择要在每个构建阶段运行的命令以及选择其他设置。CodeBuild 可以使用适用于常见场景（例如使用 Apache Maven、Gradle 或 npm 的构建任务）。 | PSET支持修改sql、 |
 
 ## 监控
 
