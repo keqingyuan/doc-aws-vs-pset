@@ -8,4 +8,3 @@
 下图是 [AWS CodeStar](aws-codestar.md) 的管理界面，从中可以看到从源码、构建、到部署、交付、团队、扩展、项目有一个应用完整的生命周期。
 ![CodeStar控制面板](/assets/2019-02-17_124608.png)
 
-# PSET

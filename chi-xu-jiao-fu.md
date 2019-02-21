@@ -12,3 +12,4 @@ Pipeline是 [AWS CodePipeline](chapter4.7.md) 服务。点击`Pipelines`菜单�
 点击Pipeline的名字，展现下图，从源码到部署一个完整的流水线。  
 ![pipeline](/assets/2019-02-17_170651.png)
 
+持续交付和持续部署都是把应员部署到目标服务器，二者的区别在于交付适用于生产环境，部署是测试，
