@@ -35,6 +35,7 @@ PSET在部署这里比较AWS功能要薄弱些，对部署类型的支持也较�
 
 下图是创建一个部署配置的思维导图
 ![deploy-configuration](/assets/aws-deploy-configuration.png)
+Canary含义见[这里](https://whatis.techtarget.com/definition/canary-canary-testing)
 ### 回滚策略
 ### 部署组
 ### 部署类型
