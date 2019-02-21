@@ -37,4 +37,4 @@ PSET的MAM提供了持续集成服务，用户根据自己的项目类型选择�
 2. PSET没有开发项目模板，用户创建一个持续集成需要填写很多信息，不像AWS两个步骤就完成。
 3. PSET创建一个新项目并不具备“落地”的能立。在AWS上用户选择好开发架构模板，并且在CodeCommit托管源码，创建好项目后用户就可以开发了。
 4. PSET对自定义的构建支持不够完善，AWS用户可以通过编写一套脚本执行具体的构建命令，例如：安装构建工具包、运行单体测试、打包代码等。
-4. PSET预制Docker镜像不如AWS丰富。
+4. PSET对Docker镜像构建没有AWS丰富，AWS可以支持的基础镜像非常丰富，见[这里](https://docs.aws.amazon.com/zh_cn/codebuild/latest/userguide/build-env-ref-available.html) 。
