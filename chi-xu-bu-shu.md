@@ -37,7 +37,8 @@ PSET在部署这里比较AWS功能要薄弱些，对部署类型的支持也较�
 ![deploy-configuration](/assets/aws-deploy-configuration.png)
 Canary部署是先将升级代码部署在过渡服务器上，并将部分用户导流到过渡服务器使用新功能。经过一段时间的用户验证，确定功能无误后才发布到生产服务器上。这样的部署策略叫做Canary（或A/B）部署。详见[这里](https://martinfowler.com/bliki/CanaryRelease.html)
 ### 回滚策略
-AWS支持部署发生错误时，能够回滚
+AWS支持部署发生错误时，能够回滚，根据回滚策略配置的回滚条件，目前支持的策略如下所示
+![](/assets/2019-02-21_183827.png)
 ### 部署组
 ### 部署类型
 _**部署配置：**_  
