@@ -10,9 +10,11 @@
   * [持续集成](chi-xu-ji-cheng.md)
   * [持续部署](chi-xu-bu-shu.md)
   * [持续交付](chi-xu-jiao-fu.md)
-  * 测试管理
+  * [测试管理](ce-shi-guan-li.md)
   * 环境管理
   * [介质管理](aws-vs-pset/jie-zhi-guan-li.md)
+  * [配置管理](pei-zhi-guan-li.md)
+  * [监控](jian-kong.md)
 * [AWS产品汇总](awschan-pin-hui-zong.md)
   * [AWS CodeCommit](aws-codecommit.md)
   * [AWS Cloud9](aws-cloud9.md)
