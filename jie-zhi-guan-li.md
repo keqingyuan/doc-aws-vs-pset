@@ -21,3 +21,7 @@ AWS的介质管理是(Amazon S3)[]提供服务，下图是S3的一个控制界�
 `标签`要跟踪单个项目或项目组的存储成本或其他标准，请使用成本分配标签标记您的 Amazon S3 存储桶。成本分配标签是与 S3 存储桶相关联的键-值对。在激活成本分配标签后，AWS 将使用这些标签在成本分配报告上组织您的资源成本。成本分配标签只能用于标记存储桶。
 
 `Amazon S3 与 AWS CloudTrail 集成`，后者是在 Amazon S3 中提供用户、角色或 AWS 服务所采取操作的记录的服务。CloudTrail 将对 Amazon S3 的 API 调用子集作为事件捕获，包括来自 Amazon S3 控制台的调用和对 Amazon S3 API 的代码调用。如果您创建跟踪，则可以使 CloudTrail 事件持续传送到 Amazon S3 存储桶（包括 Amazon S3 的事件）。如果您不配置跟踪，则仍可在 CloudTrail 控制台的 Event history (事件历史记录) 中查看最新事件。通过使用 CloudTrail 收集的信息，您可以确定向 Amazon S3 发出了什么请求、发出请求的 IP 地址、何人发出的请求、请求的发出时间以及其他详细信息。
+
+`默认加密`数据保护指在数据传输 (发往和离开 Amazon S3 时) 和处于静态 (存储在 Amazon S3 数据中心的磁盘上时) 期间保护数据。可以使用 SSL 或使用客户端加密保护传输中的数据。您可以通过以下选项在 Amazon S3 中保护静态数据。
+
+`Amazon S3 Object Lock`使您能够使用“一次写入，多次读取”(WORM) 模式存储对象。使用 S3 Object Lock，您可以在固定的时间段内或无限期地阻止删除或覆盖对象。S3 Object Lock对象锁定使您能够满足要求 WORM 存储的法规要求，或只是添加了一个额外的保护层来防止对象更改和删除。Amazon S3 Object Lock已由 Cohasset Associates 评估，可在受 SEC 17a-4、CTCC 和 FINRA 法规约束的环境中使用。
