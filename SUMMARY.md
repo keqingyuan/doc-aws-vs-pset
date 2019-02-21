@@ -8,11 +8,11 @@
   * [源码管理](aws-vs-pset/yuan-ma-guan-li.md)
   * [开发IDE](aws-vs-pset/kaifa-ide.md)
   * [持续集成](aws-vs-pset/chi-xu-ji-cheng.md)
-  * 持续部署
+  * [持续部署](aws-vs-pset/chi-xu-bu-shu.md)
+  * [持续交付](aws-vs-pset/chi-xu-jiao-fu.md)
   * 测试管理
   * 环境管理
-  * 介质管理
-  * 项目管理
+  * [介质管理](aws-vs-pset/jie-zhi-guan-li.md)
 * [AWS产品汇总](awschan-pin-hui-zong.md)
   * [AWS CodeCommit](aws-codecommit.md)
   * [AWS Cloud9](aws-cloud9.md)
