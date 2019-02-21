@@ -3,13 +3,13 @@
 * [前言](README.md)
   * 持续部署
 * [AWS VS. PSET](aws-vs-pset.md)
-  * [生命周期覆盖范围](aws-vs-pset/sheng-ming-zhou-qi-fu-gai-fan-wei.md)
-  * [项目管理](aws-vs-pset/xiang-mu-guan-li.md)
-  * [源码管理](aws-vs-pset/yuan-ma-guan-li.md)
-  * [开发IDE](aws-vs-pset/kaifa-ide.md)
-  * [持续集成](aws-vs-pset/chi-xu-ji-cheng.md)
-  * [持续部署](aws-vs-pset/chi-xu-bu-shu.md)
-  * [持续交付](aws-vs-pset/chi-xu-jiao-fu.md)
+  * [生命周期覆盖范围](sheng-ming-zhou-qi-fu-gai-fan-wei.md)
+  * [项目管理](xiang-mu-guan-li.md)
+  * [源码管理](yuan-ma-guan-li.md)
+  * [开发IDE](kaifa-ide.md)
+  * [持续集成](chi-xu-ji-cheng.md)
+  * [持续部署](chi-xu-bu-shu.md)
+  * [持续交付](chi-xu-jiao-fu.md)
   * 测试管理
   * 环境管理
   * [介质管理](aws-vs-pset/jie-zhi-guan-li.md)
