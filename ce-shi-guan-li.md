@@ -9,4 +9,4 @@ AWS的测试管理集成到了CodeBuild中，用户可以通过自定义构建�
 ![custome-codebuild](/assets/2019-02-21_195908.png)
 
 
-PSET目前提供了WEB自动化测试
+PSET目前提供了WEB自动化测试实现端到端的测试功能。用到的是Jest, Pupeeter。
