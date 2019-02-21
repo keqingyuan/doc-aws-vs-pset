@@ -1,7 +1,6 @@
 # Summary
 
 * [前言](README.md)
-  * 持续部署
 * [AWS VS. PSET](aws-vs-pset.md)
   * [生命周期覆盖范围](sheng-ming-zhou-qi-fu-gai-fan-wei.md)
   * [项目管理](xiang-mu-guan-li.md)
