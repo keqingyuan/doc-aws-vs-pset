@@ -12,6 +12,7 @@ PSET的MAM提供了持续集成服务，用户根据自己的项目类型选择�
 | **选择计算类型** | 您可以选择最能满足开发需求的计算类型。您可以从三种级别的计算容量中进行选择，每种级别都有不同的 CPU 和内存容量。这样，如果您想更快完成构建任务，就可以选择较高的 CPU 和内存计算容量；如果您的构建任务只需最低级别的 CPU 和内存容量就能完成，您可以选择较低的计算容量。  CodeBuild 支持 Linux 和 Windows 操作系统。 | PSET暂不支持选择计算类型。 |
 | **选择源集成** | 您可以通过多种方式使用 AWS CodeBuild 启动构建任务。例如，您可以在连接到 AWS CodeCommit、GitHub、GitHub Enterprise、Bitbucket 或 Amazon S3 之后，在 CodeBuild 中启动构建任务。您还可以使用 AWS CodePipeline 将 CodeBuild 与您的源存储库连接到一起，而 AWS CodePipeline 会在您每次提交更改时自动启动构建任务。 | PSET在创建构建时需要指定源码库源连接到PSET上，在每次启动构建时MAM会到源码库拉取源码来构建应用，目前PSET仅支持SVN和bitbucket。 |
 
+# AWS
 笔者在CodeStar创建一个构建非常快速和边界，就两个步骤选择项目模板、选择源码托管存储一个最基本的项目创建完成。  
 ![创建流程](/assets/2019-02-17_122412.png)
 
