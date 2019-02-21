@@ -18,35 +18,6 @@ AWS有一个优势就是仪表盘，通过仪表盘用户能够对整个项目�
 # PSET
 
 
-### 源码
-
-点击Code菜单会跳转到 [AWS CodeCommit](chapter4.5.md) 或者 GitHub。
-
-### 构建
-
-按下Build菜单，会跳转到 [AWS CodeBuild](chapter4.4.md) 服务。左边的菜单栏按照[源码](chapter4.5.md)、[构建](chapter4.4.md)、[部署](chapter4.6.md)、[Pipeline](chapter4.7.md)展开，每一个菜单都有一个各自的说明操`Getting started`。  
-![CodeStar控制面板-构建](/assets/2019-02-17_152908.png)
-
-**源码**
-
-点击源码就是 [AWS CodeCommit](chapter4.5.md) 服务。如果你使用AWS CodeCommit来托管你的源码在这里你可以看到你的源码库的信息。  
-![aws codecommit](/assets/2019-02-17_155625.png)
-
-**构建**
-
-构建是 [AWS CodeBuild](chapter4.4.md) 服务。这里可以通过应用列表看到我们创建的应用信息，同时也可以看到某个应用的详细信息和构建历史。
-  
-**部署**
-
-
-
-**Pipeline**  
-
-Pipeline是 [AWS CodePipeline](chapter4.7.md) 服务。点击`Pipelines`菜单后如下图所示，已经有一个预制的Pipeline，截至目前位置，读者可能已经发现AWS在每一个惨淡下面都会预置了一个项目，这都预置都是基于我们在创建项目时所选择的项目开发架构模板。  
-![pipeliine](/assets/2019-02-17_165947.png)  
-点击Pipeline的名字，展现下图，从源码到部署一个完整的流水线。  
-![pipeline](/assets/2019-02-17_170651.png)
-
 #### 团队
 
 在这里，您可以轻松管理项目所有者、参与者和观察者的访问权限，而无需针对每项服务手动配置策略。AWS CodeStar 通过提供符合 AWS Identity and Access Management 最佳实践的基于角色的内置策略，为团队简化了设置项目访问权限的过程。  
