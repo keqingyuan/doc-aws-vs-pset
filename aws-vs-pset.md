@@ -12,6 +12,7 @@
 | 持续部署 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 持续交付 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 测试管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
-| 配置 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
-| 监控 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 环境管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 介质管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 配置管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 监控 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
