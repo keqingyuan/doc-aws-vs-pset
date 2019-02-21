@@ -4,12 +4,8 @@
 | :--- | :--- |
 | AWS没有自己的项目管理产品，依托于[Atlassian JIRA Software](https://www.atlassian.com/software/jira) 来管理项目。 | PSET也是依托于[Atlassian JIRA Software](https://www.atlassian.com/software/jira) 跟踪问题和管理项目。 |
 
-我们从Code Star的控制面板出发。
-![CodeStar控制面板](/assets/2019-02-17_124608.png)
-
-### 仪表盘
-
-仪表盘中前两个贴图（点击Close可以关闭），第一个贴图里展现项目的状态，以及关联的IDE工具，AWS支持哪些IDE详见[开发IDE](kaifa-ide.md)。  
+# AWS
+AWS有一个优势就是仪表盘，通过仪表盘用户能够对整个项目有一个全局的认识，仪表盘中前两个贴图（点击Close可以关闭），第一个贴图里展现项目的状态，以及关联的IDE工具，AWS支持哪些IDE详见[开发IDE](kaifa-ide.md)。  
 ![CodeStar控制面板-仪表盘](/assets/2019-02-17_121934.png)  
 仪表盘其它的贴图就是其它服务的入口，例如应用监控（[AWS CloudWatch](chapter18.1.md)）、[CodePipeline](chapter4.7.md)、托管工具，通过`Add tile`添加其它的服务入口，例如：Jira、持续部署等服务。
 
