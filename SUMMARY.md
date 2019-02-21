@@ -2,6 +2,7 @@
 
 * [前言](README.md)
 * [AWS VS. PSET](aws-vs-pset.md)
+  * [门户网站](men-hu-wang-zhan.md)
   * [生命周期覆盖范围](sheng-ming-zhou-qi-fu-gai-fan-wei.md)
   * [项目管理](xiang-mu-guan-li.md)
   * [源码管理](yuan-ma-guan-li.md)
@@ -13,7 +14,7 @@
   * [环境管理](huan-jing-guan-li.md)
   * [介质管理](jie-zhi-guan-li.md)
   * [配置管理](pei-zhi-guan-li.md)
-  * [监控](jian-kong.md)
+  * 门户网站
 * [AWS产品汇总](awschan-pin-hui-zong.md)
   * [AWS CodeCommit](aws-codecommit.md)
   * [AWS Cloud9](aws-cloud9.md)
