@@ -13,3 +13,6 @@ CodeStar不仅支持自家的 [AWS Cloud9](chapter4.3.md)，同时支持Eclipse�
 
 下图是Cloud9的操作界面
 ![ide editor](/assets/2019-02-21_155406.png)
+
+# PSET
+PSET不支持IDE，或者第三方IDE
