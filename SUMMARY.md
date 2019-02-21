@@ -12,7 +12,7 @@
   * [持续交付](chi-xu-jiao-fu.md)
   * [测试管理](ce-shi-guan-li.md)
   * [环境管理](huan-jing-guan-li.md)
-  * [介质管理](aws-vs-pset/jie-zhi-guan-li.md)
+  * [介质管理](jie-zhi-guan-li.md)
   * [配置管理](pei-zhi-guan-li.md)
   * [监控](jian-kong.md)
 * [AWS产品汇总](awschan-pin-hui-zong.md)
