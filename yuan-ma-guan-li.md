@@ -12,4 +12,4 @@ AWS的源码管理服务由AWS CodeCommit提供，如果是选择GitHub托管源
 ![code](/assets/2019-02-21_154648.png)
 
 # 总结
-PSET使用SVN和bitbucket托管源码，会在源码管理相应都移交给了SVN和bitbucket，但是对第三方服务的集成度没有AWS CodeCommit高，我们在Dashboard可以看到用户托管在GitHub上的历史信息、Issue信息，但是PSET需要登陆bitbucket。
+PSET使用SVN和bitbucket托管源码，会在源码管理相应都移交给了SVN和bitbucket，但是对第三方服务的集成度没有AWS CodeCommit高，我们在Dashboard可以看到用户托管在GitHub上的历史信息、Issue信息。
