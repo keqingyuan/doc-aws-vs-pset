@@ -15,19 +15,3 @@
 | 配置 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 监控 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 介质管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
