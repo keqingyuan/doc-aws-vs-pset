@@ -1,7 +1,18 @@
 # Summary
 
 * [前言](README.md)
+  * 持续部署
 * [AWS VS. PSET](aws-vs-pset.md)
+  * [生命周期覆盖范围](aws-vs-pset/sheng-ming-zhou-qi-fu-gai-fan-wei.md)
+  * [项目管理](aws-vs-pset/xiang-mu-guan-li.md)
+  * [源码管理](aws-vs-pset/yuan-ma-guan-li.md)
+  * 开发IDE
+  * 持续集成
+  * 持续部署
+  * 测试管理
+  * 环境管理
+  * 介质管理
+  * 项目管理
 * [AWS产品汇总](awschan-pin-hui-zong.md)
   * [AWS CodeCommit](aws-codecommit.md)
   * [AWS Cloud9](aws-cloud9.md)

@@ -1,22 +1,27 @@
 # AWS VS. PSET
 
-## 生命周期覆盖范围
+我们会从下表展现的维度展开对比。
 
-| AWS | PEST |
-| :--- | :--- |
-| AWS生命周期范围覆盖项目管理、源码托管、开发、CI/CD、交付、测试、监控。 | PSET生命周期覆盖项目管理、源码托管、CI/CD、交付、测试、监控。 |
+|  | AWS | PSET |
+| :--- | :--- | :--- |
+| 生命周期覆盖范围 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 项目管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 源码管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 开发IDE | ![yes](/assets/yes.svg) | ![no](/assets/no.svg) |
+| 持续集成 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 持续部署 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 持续交付 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 测试 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 配置 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 监控 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
+| 介质管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 
-## 项目管理
 
-| AWS | PEST |
-| :--- | :--- |
-| AWS没有自己的项目管理产品，依托于[Atlassian JIRA Software](https://www.atlassian.com/software/jira) 来管理项目。 | PSET也是依托于[Atlassian JIRA Software](https://www.atlassian.com/software/jira) 跟踪问题和管理项目。 |
 
-## 源码管理
 
-| AWS | PEST |
-| :--- | :--- |
-| AWS源码托管有自己的源码托管产品 [AWS CodeCommit](aws-codecommit.md) 和支持GitHub。 | PSET源码托管支持SVN和bitbucket。 |
+
+
+
 
 ## 开发
 
