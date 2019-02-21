@@ -64,6 +64,6 @@ Pipeline是 [AWS CodePipeline](chapter4.7.md) 服务。点击`Pipelines`菜单�
 
 ### Projects
 
-这里你可以看到项目用到的服务资源，以及删除项目操作。  
+这里你可以看到项目用到的其它资源，以及删除项目操作。  
 ![projects](/assets/2019-02-17_175614.png)
 
