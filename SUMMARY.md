@@ -7,7 +7,7 @@
   * [项目管理](aws-vs-pset/xiang-mu-guan-li.md)
   * [源码管理](aws-vs-pset/yuan-ma-guan-li.md)
   * [开发IDE](aws-vs-pset/kaifa-ide.md)
-  * 持续集成
+  * [持续集成](aws-vs-pset/chi-xu-ji-cheng.md)
   * 持续部署
   * 测试管理
   * 环境管理
