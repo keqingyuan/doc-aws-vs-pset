@@ -27,7 +27,6 @@ AWS的[AWS CodeDeploy](aws-codedeploy.md)提供持续部署服务 , AWS的持续
 点击`Create deployment`按钮，展现下图的界面，[AWS CodeDeploy](chapter4.6.md) 有部署配置和回滚策略相比较PSET而言这是一个亮点。  
 ![create-deployment](/assets/2019-02-17_163724.png)
 
-
 # 总结
 PSET在部署这里比较AWS功能要薄弱些，对部署类型的支持也较少。AWS部署里有几个概念，如下：
 ### 部署配置
