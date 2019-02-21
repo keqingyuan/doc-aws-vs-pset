@@ -9,9 +9,6 @@ AWS有一个优势就是仪表盘，通过仪表盘用户能够对整个项目�
 ![CodeStar控制面板-仪表盘](/assets/2019-02-17_121934.png)  
 仪表盘其它的贴图就是其它服务的入口，例如应用监控（[AWS CloudWatch](chapter18.1.md)）、[CodePipeline](chapter4.7.md)、托管工具，通过`Add tile`添加其它的服务入口，例如：Jira、持续部署等服务。
 
-笔者在CodeStar创建一个构建非常快速和边界，就两个步骤选择项目模板、选择源码托管存储一个最基本的项目创建完成。  
-![创建流程](/assets/2019-02-17_122412.png)
-
 ### 源码
 
 点击Code菜单会跳转到 [AWS CodeCommit](chapter4.5.md) 或者 GitHub。
