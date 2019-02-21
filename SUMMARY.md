@@ -6,7 +6,7 @@
   * [生命周期覆盖范围](aws-vs-pset/sheng-ming-zhou-qi-fu-gai-fan-wei.md)
   * [项目管理](aws-vs-pset/xiang-mu-guan-li.md)
   * [源码管理](aws-vs-pset/yuan-ma-guan-li.md)
-  * 开发IDE
+  * [开发IDE](aws-vs-pset/kaifa-ide.md)
   * 持续集成
   * 持续部署
   * 测试管理
