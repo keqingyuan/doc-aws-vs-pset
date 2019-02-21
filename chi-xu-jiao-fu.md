@@ -34,3 +34,4 @@ Pipeline是 [AWS CodePipeline](chapter4.7.md) 服务。点击`Pipelines`菜单�
 
 第五步审核确认
 ![pipeline5](/assets/2019-02-21_193659.png)
+
