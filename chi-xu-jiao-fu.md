@@ -17,4 +17,4 @@ Pipeline是 [AWS CodePipeline](chapter4.7.md) 服务。点击`Pipelines`菜单�
 # 总结
 
 1. AWS的持续交付和构建做到了无缝集成，用户可以使用Pipeline来配置工作流，定制化程度高于PSET。
-2. AWS的Pipeline集成了源码库托管，构建，部署可以自动化这些流程，用户提交代码就可以触发交付。
+2. AWS的Pipeline集成了源码库托管，构建，部署可以自动化这些流程，用户提交代码就可以触发交付/部署。
