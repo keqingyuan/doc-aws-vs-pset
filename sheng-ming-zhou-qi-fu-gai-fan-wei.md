@@ -7,6 +7,16 @@
 下图是 [AWS CodeStar](aws-codestar.md) 的管理界面，从中可以看到从源码、构建、到部署、交付、团队、扩展、项目有一个应用完整的生命周期。
 ![CodeStar控制面板](/assets/2019-02-17_124608.png)
 
+### 仪表盘
+
+仪表盘中前两个贴图（点击Close可以关闭），第一个贴图里展现项目的状态，以及关联的IDE工具。  
+![CodeStar控制面板-仪表盘](/assets/2019-02-17_121934.png)  
+CodeStar不仅支持自家的 [AWS Cloud9](chapter4.3.md)，同时支持Eclipse、IntelliJ、Visual Studio等流行的第三方IDE，第三方的IDE都是以插件为媒介的方式支持，插件安装方式都有详细的说明文档（见[AWS Cloud9](chapter4.3.md) 体验Visual Studio Code），下图是AWS能够支持的IDE。  
+![ide](/assets/2019-02-17_131028.png)  
+仪表盘其它的贴图就是其它服务的入口，例如应用监控（[AWS CloudWatch](chapter18.1.md)）、[CodePipeline](chapter4.7.md)、托管工具，通过`Add tile`添加其它的服务入口，例如：Jira、持续部署等服务。
+
+
+
 笔者在CodeStar创建一个构建非常快速和边界，就两个步骤选择项目模板、选择源码托管存储一个最基本的项目创建完成。  
 ![创建流程](/assets/2019-02-17_122412.png)
 
