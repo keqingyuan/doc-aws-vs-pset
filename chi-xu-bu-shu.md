@@ -23,9 +23,6 @@ AWS的[AWS CodeDeploy](aws-codedeploy.md)提供持续部署服务 , AWS的持续
 
 点击一个部署组名称，进入到部署组的详情界面，可以获知这个部署组的出发次数、警告、部署组的部署历史，创建一个部署也在这里。  
 ![deploy-configure](/assets/2019-02-17_163432.png)
- 
-点击`Create deployment`按钮，展现下图的界面，[AWS CodeDeploy](chapter4.6.md) 有部署配置和回滚策略相比较PSET而言这是一个亮点。  
-![create-deployment](/assets/2019-02-17_163724.png)
 
 # 总结
 PSET在部署这里比较AWS功能要薄弱些，对部署类型的支持也较少。AWS部署里有几个概念，如下：
@@ -42,5 +39,5 @@ AWS支持部署发生错误时，能够回滚，根据回滚策略配置的回�
 ### 部署组
 部署组用于将配置与特定环境（例如转储环境或生产环境）进行匹配，类似于部署环境的概念，我们可以把同一个环境的部署放到一个组里。
 ### 部署类型
-_**部署配置：**_  
-_**回滚策略：**_如果开启回滚策略，部署失败时或者遇满足警报阈值时回滚
+点击`Create deployment`按钮，展现下图的界面，[AWS CodeDeploy](chapter4.6.md) 有部署配置和回滚策略相比较PSET而言这是一个亮点。  
+![create-deployment](/assets/2019-02-17_163724.png)
