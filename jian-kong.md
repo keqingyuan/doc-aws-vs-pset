@@ -62,7 +62,7 @@ CloudWatch事件能够监控AWS各个服务状态的改变，目前AWS Watch能�
 AWS可以通过事件总线把你创建的事件共享给其他AWS用户/组织，点击添加权限，输入账户ID或者组织ID即可。
 ![](/assets/2019-02-22_155259.png)
 
-# 日志
+## 日志
 用户可以使用 Amazon CloudWatch Logs 来监控、存储和访问来自 Amazon Elastic Compute Cloud (Amazon EC2) 实例、AWS CloudTrail、Route 53 和其他来源的日志文件。您随后可以从 CloudWatch Logs 中检索关联的日志数据。
 ![](/assets/2019-02-22_155819.png)
 
@@ -76,7 +76,7 @@ AWS可以通过事件总线把你创建的事件共享给其他AWS用户/组织�
 
 记录 Route 53 DNS 查询 — 您可以使用 CloudWatch Logs 记录有关 Route 53 收到的 DNS 查询的信息。有关更多信息。
 
-# 指标
+## 指标
 指标是关于您的系统性能的数据。默认情况下，许多服务都提供资源（例如，Amazon EC2 实例、Amazon EBS 卷和 Amazon RDS 数据库实例）的免费指标。您也可以启用对某些资源（如 Amazon EC2 实例）的详细监控，或发布自己的应用程序指标。Amazon CloudWatch 可加载您的账户中的所有指标（包括您提供的 AWS 资源指标和应用程序指标）以进行搜索、绘制图表及设置警报。
 
 指标数据的保留期限为 15 个月，这使您能够查看最新数据和历史数据。
