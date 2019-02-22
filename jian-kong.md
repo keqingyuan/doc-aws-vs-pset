@@ -64,3 +64,14 @@ AWS可以通过事件总线把你创建的事件共享给其他AWS用户/组织�
 
 # 日志
 用户可以使用 Amazon CloudWatch Logs 来监控、存储和访问来自 Amazon Elastic Compute Cloud (Amazon EC2) 实例、AWS CloudTrail、Route 53 和其他来源的日志文件。您随后可以从 CloudWatch Logs 中检索关联的日志数据。
+![](/assets/2019-02-22_155819.png)
+
+监控来自 Amazon EC2 实例的日志 — 您可以使用 CloudWatch Logs 通过日志数据监控应用程序和系统。例如，CloudWatch Logs 能够跟踪应用程序日志中的错误数，并在错误率超过指定阈值时向您发送通知。CloudWatch Logs 使用您的日志数据进行监控，因此无需更改代码。例如，您可以监控应用程序日志以查找特定字词（如“NullReferenceException”）或日志数据中特定位置处某个字词（如 Apache 访问日志中的“404”状态代码）出现的次数。找到您要搜索的字词时，CloudWatch Logs 向您指定的 CloudWatch 指标报告该数据。日志数据会在传输期间加密，并且会对静态日志数据加密。要了解其用法，请参阅 CloudWatch Logs 入门。
+
+监控 AWS CloudTrail 记录的事件 — 您可以在 CloudWatch 中创建警报并接收 CloudTrail 捕获的特定 API 活动的通知，然后使用通知执行故障排除。要开始入门，请参阅 AWS CloudTrail User Guide 中的 将 CloudTrail 事件发送到 CloudWatch Logs。
+
+日志保留 — 默认情况下，日志将无限期保留且永不过期。您可以调整每个日志组的保留策略，保持无限期保留或选择介于 10 年和一天之间的保留期。
+
+归档日志数据 — 您可以使用 CloudWatch Logs 在高持久性存储中存储日志数据。CloudWatch Logs 代理支持您轻松快速地将已轮换和未轮换的日志文件从主机移动到日志服务。然后，您可以按需访问原始日志数据。
+
+记录 Route 53 DNS 查询 — 您可以使用 CloudWatch Logs 记录有关 Route 53 收到的 DNS 查询的信息。有关更多信息，请参阅 Amazon Route 53 开发人员指南 中的记录 DNS 查询。
