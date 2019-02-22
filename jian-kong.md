@@ -40,7 +40,7 @@ AWS用户可以根据自己的需要创建控制面板
 ![](/assets/2019-02-22_115932.png)
 
 ## 警报
-用户可以创建一个 CloudWatch 警报来监视单个 CloudWatch 指标，或基于 CloudWatch 指标监视数学表达式的结果。警报根据指标或表达式在多个时间段内相对于某阈值的值执行一项或多项操作。该操作可以是 Amazon EC2 操作、Amazon EC2 Auto Scaling 操作或发送到 Amazon SNS 主题的通知。
+用户可以创建一个 CloudWatch 警报来监视单个 CloudWatch 指标，或基于 CloudWatch 指标监视数学表达式的结果。警报根据指标或表达式在多个时间段内相对于某阈值的值执行一项或多项操作。该操作可以是 Amazon EC2 操作、Amazon EC2 Auto Scaling 操作或发送到 Amazon SNS 主题的通知，大白话就是你对某个指标设置了警告，当指标达到阀值就会给你发邮件。
 
 您也可以向 CloudWatch 控制面板添加警报，并以可视化方式监控它们。当某个警报位于控制面板上时，如果它处于 ALARM 状态，则会变成红色，便于您主动监控其状态。
 
