@@ -61,3 +61,6 @@ CloudWatch事件能够监控AWS各个服务状态的改变，目前AWS Watch能�
 
 AWS可以通过事件总线把你创建的事件共享给其他AWS用户/组织，点击添加权限，输入账户ID或者组织ID即可。
 ![](/assets/2019-02-22_155259.png)
+
+# 日志
+用户可以使用 Amazon CloudWatch Logs 来监控、存储和访问来自 Amazon Elastic Compute Cloud (Amazon EC2) 实例、AWS CloudTrail、Route 53 和其他来源的日志文件。您随后可以从 CloudWatch Logs 中检索关联的日志数据。
