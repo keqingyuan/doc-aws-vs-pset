@@ -53,5 +53,5 @@ AWS用户可以根据自己的需要创建控制面板
 ![](/assets/2019-02-22_120418.png)
 
 ## 事件
-
+CloudWatch事件能够监控AWS各个服务状态的改变，需要AWS Batch配合使用。AWS Batch 将任务状态更改事件发送到 CloudWatch Events。AWS Batch 跟踪任务的状态。如果之前提交的作业的状态发生更改，将触发事件，例如 RUNNING 状态的作业进入 FAILED 状态。这些事件归类为作业状态更改事件。
 创建规则
