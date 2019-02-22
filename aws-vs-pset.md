@@ -4,6 +4,7 @@
 
 |  | AWS | PSET |
 | :--- | :--- | :--- |
+| 门户网站 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 生命周期覆盖范围 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 项目管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
 | 源码管理 | ![yes](/assets/yes.svg) | ![yes](/assets/yes.svg) |
