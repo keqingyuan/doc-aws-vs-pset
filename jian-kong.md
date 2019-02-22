@@ -74,4 +74,4 @@ AWS可以通过事件总线把你创建的事件共享给其他AWS用户/组织�
 
 归档日志数据 — 您可以使用 CloudWatch Logs 在高持久性存储中存储日志数据。CloudWatch Logs 代理支持您轻松快速地将已轮换和未轮换的日志文件从主机移动到日志服务。然后，您可以按需访问原始日志数据。
 
-记录 Route 53 DNS 查询 — 您可以使用 CloudWatch Logs 记录有关 Route 53 收到的 DNS 查询的信息。有关更多信息，请参阅 Amazon Route 53 开发人员指南 中的记录 DNS 查询。
+记录 Route 53 DNS 查询 — 您可以使用 CloudWatch Logs 记录有关 Route 53 收到的 DNS 查询的信息。有关更多信息。
